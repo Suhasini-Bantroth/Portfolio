@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Suhasini Bantroth – Web Developer, AI & Cybersecurity</title>
+<meta name="description" content="Portfolio of Suhasini Bantroth: MCA student, web developer, and AI and cybersecurity builder.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E💻%3C/text%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<nav><div class="wrap"><b>Suhasini B.</b>
+<a class="l" href="#about">About</a><a class="l" href="#skills">Skills</a><a class="l" href="#projects">Projects</a><a class="l" href="#experience">Experience</a><a href="#contact">Contact</a>
+<button id="theme" aria-label="Toggle light and dark theme">Theme</button></div></nav>
+<main class="wrap">
+<div class="hero">
+ <div>
+  <h1>Hi, I'm <span>Suhasini Bantroth</span></h1>
+  <div class="type" id="type" aria-live="off"></div>
+  <p>MCA student at KL University who builds clean web interfaces and AI-driven security tools, from finance dashboards to honeypots that learn from attackers.</p>
+  <div class="btns"><a class="btn main" href="#projects">View projects</a><a class="btn" href="https://github.com/Suhasini-Bantroth" target="_blank" rel="noopener">GitHub profile</a><a class="btn" href="https://www.linkedin.com/in/bantroth-suhasini-193062318/" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="#contact">Contact me</a></div>
+ </div>
+ <figure class="photo tilt" style="margin:0">
+  <img src="assets/photo.jpg" alt="Portrait of Suhasini Bantroth">
+  <figcaption><b>Suhasini Bantroth</b><small>Vijayawada, India · Open to internships</small></figcaption>
+ </figure>
+</div>
+
+<section id="about"><h2>About</h2>
+<p class="lead">I enjoy turning ideas into working software, and I'm most curious about where machine learning meets security.</p>
+<div class="about">
+ <div class="card"><p style="margin-top:0">I'm pursuing my Master of Computer Applications and recently worked as a web developer, building healthcare pages for Oncology and Pediatrics. Outside work I build projects that detect threats, forecast attack spikes, and make data easy to read.</p>
+ <p style="margin-bottom:0">I'm also an Oracle Certified Professional in Oracle Cloud Infrastructure 2024 Generative AI, and I play chess in my free time.</p></div>
+ <div class="card edu"><h3 style="font-size:18px;margin-bottom:14px">Education</h3>
+  <div><b>MCA, KL University</b><small>Vijayawada · Sep 2025 – Present</small></div>
+  <div><b>BCA, Sri Sai Krishna @ SMT Theresa Arts and Science Degree College</b><small>Kurnool · Sep 2022 – May 2025</small></div></div>
+</div></section>
+
+<section id="skills"><h2>Skills</h2>
+<p class="lead">The tools I reach for most when I build and secure things.</p>
+<div class="groups">
+ <div class="card"><h3>Languages and web</h3><div class="chips"><span class="chip">Python</span><span class="chip">JavaScript</span><span class="chip">Java</span><span class="chip">SQL</span><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">Tailwind CSS</span></div></div>
+ <div class="card"><h3>AI and security</h3><div class="chips"><span class="chip">Machine Learning</span><span class="chip">Anomaly Detection</span><span class="chip">MITRE ATT&amp;CK</span><span class="chip">Log Analysis</span><span class="chip">IAM</span><span class="chip">Kali Linux</span></div></div>
+ <div class="card"><h3>Data and tools</h3><div class="chips"><span class="chip">Chart.js</span><span class="chip">Power BI</span><span class="chip">MS Excel</span><span class="chip">Flask</span><span class="chip">Git and GitHub</span><span class="chip">VMware</span></div></div>
+</div></section>
+
+<section id="projects"><h2>Projects</h2>
+<p class="lead">Four builds, each linked to its code on GitHub.</p>
+<div class="projects">
+ <a class="proj tilt" href="https://github.com/Suhasini-Bantroth/Finance_dashboard" target="_blank" rel="noopener"><div class="card"><h3>FinTrack</h3><p>A finance dashboard with animated summary cards, a balance trend, a spending doughnut, filterable transactions, Admin and Viewer roles, and CSV export.</p><div class="chips"><span class="chip">JavaScript</span><span class="chip">Tailwind CSS</span><span class="chip">Chart.js</span></div><div class="go">View on GitHub</div></div></a>
+ <a class="proj tilt" href="https://github.com/Suhasini-Bantroth/Insider-Threat-Analyzer" target="_blank" rel="noopener"><div class="card"><h3>Insider Threat Behavior Analyzer</h3><p>Finds suspicious user activity in authentication and access logs, scores risk per user, and maps behavior to MITRE ATT&amp;CK.</p><div class="chips"><span class="chip">Python</span><span class="chip">Machine Learning</span><span class="chip">MITRE ATT&amp;CK</span></div><div class="go">View on GitHub</div></div></a>
+ <a class="proj tilt" href="https://github.com/Suhasini-Bantroth/Sentinel-Honeypot" target="_blank" rel="noopener"><div class="card"><h3>Sentinel Honeypot</h3><p>An adaptive honeypot that records attacker commands and behavior, then changes its responses to learn more and produce threat intelligence.</p><div class="chips"><span class="chip">Python</span><span class="chip">AI/ML</span><span class="chip">Network Security</span></div><div class="go">View on GitHub</div></div></a>
+ <a class="proj tilt" href="https://github.com/Suhasini-Bantroth/sentinelflow-ai" target="_blank" rel="noopener"><div class="card"><h3>SentinelFlow AI</h3><p>A live network dashboard that classifies traffic as Normal, DoS, Probe, R2L, or U2R and forecasts the next window's attack volume with a green, yellow, red risk level.</p><div class="chips"><span class="chip">Python</span><span class="chip">Flask</span><span class="chip">Random Forest</span></div><div class="go">View on GitHub</div></div></a>
+</div></section>
+
+<section id="experience"><h2>Experience</h2>
+<p class="lead">Where I've worked on real products.</p>
+<div class="tl card"><h3 style="font-size:20px">Web Developer, QuickIntell</h3><small style="color:var(--mute)">Kanpur · May 2025 – Aug 2025</small>
+<ul><li>Built and improved web pages for healthcare areas including Oncology and Pediatrics.</li><li>Used Cursor AI to write and refactor components faster.</li><li>Worked with design and content teams to turn healthcare needs into responsive, easy-to-use pages.</li></ul></div>
+<div class="card cert" style="margin-top:18px"><span aria-hidden="true">☁️</span><div><b>Oracle Certified Professional</b><br><small style="color:var(--mute)">Oracle Cloud Infrastructure 2024 Generative AI</small></div></div>
+</section>
+
+<section id="contact" class="contact"><h2>Let's talk</h2>
+<p class="lead">I'm looking for internships and entry-level roles in web development, cybersecurity, and AI/ML.</p>
+<div class="btns"><a class="btn main" href="mailto:suhasiniwork01@gmail.com">Email me</a><a class="btn" href="https://www.linkedin.com/in/bantroth-suhasini-193062318/" target="_blank" rel="noopener">Connect on LinkedIn</a><a class="btn" href="https://github.com/Suhasini-Bantroth" target="_blank" rel="noopener">See my code</a></div></section>
+</main>
+<footer>© Suhasini Bantroth</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
